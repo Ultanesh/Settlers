@@ -181,7 +181,48 @@ body {}
     justify-content: center;
   }
   .space {
-    position: relative;
     height: 100px;
     background: whitesmoke;
+  }
+  .resourcen {
+    outline: 5px solid green;
+  }
+  .resourcen-one {
+    transform: rotate(90deg);
+  }
+  .resourcen-two {
+    transform: rotate(180deg);
+  }
+  .resourcen-three {
+    transform: rotate(270deg);
+  }
+  .resourcen-zero {}
+  .wert {
+    position: absolute;
+    color: white;
+    background: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .wert-one {
+    bottom: 0;
+    top: 0;
+    right: 0;
+
+  }
+  .wert-two {
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .wert-three {
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+  .wert-zero {
+    bottom: 0;
+    right: 0;
+    left: 0;
   }
