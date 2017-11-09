@@ -1,0 +1,187 @@
+body {}
+.card {
+    position: relative;
+    background-color: whitesmoke;
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+}
+.wood {
+    background-image: url(https://www.yogagardenstudio.com/wp-content/uploads/2016/05/Yoga-Garden-Tree-Pose.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.sheep {
+  background-image: url(https://www.laoistoday.ie/wp-content/uploads/2017/07/Sheep.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.ore {
+  background-image: url(https://www.bergwelten.com/files/touren/header/vom-eibsee-auf-den-jubilaeumsgrat-13393-0.jpg?downsize=1200px:*);
+  background-size: cover;
+  background-position: center;
+}
+.brick {
+  background-image: url(https://www.mineralienatlas.de/VIEWmaxFULL.php/param/1366752081-Lehm-mit-einer-Tonmergelschicht.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.corn {
+  background-image: url(https://www.getreide.org/wp-content/uploads/2016/12/getreide.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.gold {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYS80bebwBtk0LehD9jN_cgWa2VsaUkW94mKlUQWhdYNenWzYU);
+  background-size: cover;
+  background-position: center;
+}
+.dice {
+    position: absolute;
+    top: 75px;
+    left: 75px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2), -1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  .dice .dot {
+    position: absolute;
+    top: 19px;
+    left: 19px;
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background-color: black;
+  }
+  .dice.two .dot:nth-child(1) {
+    top: 10px;
+    left: 10px;
+  }
+  .dice.two .dot:nth-child(2) {
+    top: 28px;
+    left: 28px;
+  }
+  .dice.two .dot:nth-child(1n+3) {
+    display: none;
+  }
+  .dice.three .dot:nth-child(1) {
+    top: 8px;
+    left: 8px;
+  }
+  .dice.three .dot:nth-child(2) {
+    top: 30px;
+    left: 30px;
+  }
+  .dice.four .dot:nth-child(1) {
+    top: 8px;
+    left: 8px;
+  }
+  .dice.four .dot:nth-child(2) {
+    top: 30px;
+    left: 8px;
+  }
+  .dice.four .dot:nth-child(4) {
+    top: 30px;
+    left: 30px;
+  }
+  .dice.four .dot:nth-child(3) {
+    top: 8px;
+    left: 30px;
+  }
+  .dice.four .dot:nth-child(1n+5) {
+    display: none;
+  }
+  .dice.five .dot:nth-child(1) {
+    top: 8px;
+    left: 8px;
+  }
+  .dice.five .dot:nth-child(2) {
+    top: 30px;
+    left: 30px;
+  }
+  .dice.five .dot:nth-child(3) {
+    top: 8px;
+    left: 30px;
+  }
+  .dice.five .dot:nth-child(4) {
+    top: 30px;
+    left: 8px;
+  }
+  .dice.six .dot:nth-child(1) {
+    top: 5px;
+    left: 8px;
+  }
+  .dice.six .dot:nth-child(2) {
+    top: 19px;
+    left: 8px;
+  }
+  .dice.six .dot:nth-child(3) {
+    top: 33px;
+    left: 8px;
+  }
+  .dice.six .dot:nth-child(4) {
+    top: 5px;
+    left: 30px;
+  }
+  .dice.six .dot:nth-child(5) {
+    top: 19px;
+    left: 30px;
+  }
+  .dice.six .dot:nth-child(6) {
+    top: 33px;
+    left: 30px;
+  }
+  .village {
+    background-image: url(http://kirchensite.de/uploads/pics/Dorf176.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .city {
+    background-image: url(https://www.stadt.bamberg.de/media/custom/1829_11480_1_g.JPG?1423217849);
+    background-size: cover;
+    background-position: center;
+  }
+  .road {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/06/Feldweg2005.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .event {
+    background-image: url(https://image.freepik.com/freie-ikonen/fragezeichen_318-62253.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .ausbaukarten {
+    background-image: url(http://game2gether.de/wp-content/uploads/2014/07/die-siedler-von-catan.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .cardgridresourcen{
+    background: whitesmoke;
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: repeat(5, 200px);
+    grid-gap: 25px;
+      
+    align-content: center;
+    justify-content: center;
+  }
+  .cardgridneutral{
+    background: whitesmoke;
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: repeat(5, 200px);
+    grid-gap: 25px;
+      
+    align-content: center;
+    justify-content: center;
+  }
+  .space {
+    position: relative;
+    height: 100px;
+    background: whitesmoke;
+  }
