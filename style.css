@@ -25,6 +25,7 @@ body {}
   background-image: url(https://www.mineralienatlas.de/VIEWmaxFULL.php/param/1366752081-Lehm-mit-einer-Tonmergelschicht.jpg);
   background-size: cover;
   background-position: center;
+  background: red;
 }
 .corn {
   background-image: url(https://www.getreide.org/wp-content/uploads/2016/12/getreide.jpg);
@@ -160,69 +161,26 @@ body {}
     background-size: cover;
     background-position: center;
   }
-  .cardgridresourcen{
+  .cardgrid{
     background: whitesmoke;
     display: grid;
     grid-template-rows: 200px;
     grid-template-columns: repeat(5, 200px);
     grid-gap: 25px;
+    padding-bottom: 25px;
       
     align-content: center;
     justify-content: center;
   }
-  .cardgridneutral{
-    background: whitesmoke;
-    display: grid;
-    grid-template-rows: 200px;
-    grid-template-columns: repeat(5, 200px);
-    grid-gap: 25px;
-      
-    align-content: center;
-    justify-content: center;
-  }
-  .space {
-    height: 100px;
-    background: whitesmoke;
-  }
-  .resourcen {
-    outline: 5px solid green;
-  }
-  .resourcen-one {
-    transform: rotate(90deg);
-  }
-  .resourcen-two {
-    transform: rotate(180deg);
-  }
-  .resourcen-three {
-    transform: rotate(270deg);
-  }
-  .resourcen-zero {}
   .wert {
     position: absolute;
     color: white;
-    background: black;
     justify-content: center;
     display: flex;
     align-items: center;
-  }
-  .wert-one {
-    bottom: 0;
-    top: 0;
-    right: 0;
+    font-size: 25;
 
-  }
-  .wert-two {
-    top: 0;
-    right: 0;
-    left: 0;
-  }
-  .wert-three {
-    top: 0;
-    left: 0;
-    bottom: 0;
-  }
-  .wert-zero {
-    bottom: 0;
+    bottom: 10px;
     right: 0;
     left: 0;
   }
