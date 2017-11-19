@@ -1,4 +1,5 @@
 import initialState from './initialState.js';
+import { WAIT_FOR_DICE_THROW } from '../types/phases.js';
 import { SET_DICES, SET_PHASE } from '../types/actions.js'
 import handleMatrixAction from './handleMatrixAction.js';
 
@@ -18,7 +19,7 @@ export default function reducer(state = initialState, action) {
             return {
                 ...state,
                 phase: action.payload
-            }
+            };
         default:
             return state;
     }

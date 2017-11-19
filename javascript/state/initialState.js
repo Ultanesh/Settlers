@@ -1,6 +1,7 @@
 import { SHEEP, ORE, WOOD, GOLD, CORN, BRICK } from '../types/resources.js';
 import { SPACE, ROAD, VILLAGE } from '../types/common.js';
 import { WAIT_FOR_DICE_THROW } from '../types/phases.js';
+
 export default {
     turn: 0,
     player: [
@@ -32,5 +33,5 @@ export default {
     },
     resourceDiceResult: null,
     eventDiceResult: null,
-    phase: WAIT_FOR_DICE_THROW
+    phase: [WAIT_FOR_DICE_THROW]
 };
